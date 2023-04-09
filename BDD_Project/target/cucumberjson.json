@@ -1,0 +1,162 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 999600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "As a user I will launch browser",
+            "match": {
+              "location": "stepDefinitons.Login.as_a_user_i_will_launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Enter the url",
+            "match": {
+              "location": "stepDefinitons.Login.enter_the_url()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-30T12:20:04.888Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12990700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.Hook.setUpForSmokeTest()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.Hook.setUpForRegressionTest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.Hook.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "As a valid user I will provide valid credentials for login",
+        "description": "",
+        "id": "user-login-module;as-a-valid-user-i-will-provide-valid-credentials-for-login",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.Hook.teardownForSmokeTest()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.Hook.teardownForRegressionTest()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.Hook.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "login page is displayed I will enter username and password",
+            "match": {
+              "location": "stepDefinitons.Login.login_page_is_displayed_i_will_enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on login",
+            "match": {
+              "location": "stepDefinitons.Login.click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11992100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Home page should display",
+            "match": {
+              "location": "stepDefinitons.Login.home_page_should_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5996000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Also I will verify that home page title",
+            "match": {
+              "location": "stepDefinitons.Login.also_i_will_verify_that_home_page_title()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "User login module",
+    "description": "",
+    "id": "user-login-module",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": []
+  }
+]
